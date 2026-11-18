@@ -1,0 +1,62 @@
+:root {
+    --text-violett: #472758;
+    --text-violett1: #4D2C5E;
+    --text-black: #1D1D1D;
+    --text-black1: #212121;
+    --text-mint: #88CFE5;
+    --text-white1: #B8E8F2;
+    --text-orange: #FF7426;
+    --text-orange1: #FFA135;
+    --text-gray: #ACACAC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 195px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.logo p {
+    font-size: 24px;
+    color: var(--text-black);
+    font-weight: 700;
+    line-height: 135%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: var(--text-black);
+    font-weight: 600;
+}
+
+.btn-logo {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    background-color: var(--text-violett1);
+    padding: 18px 57px;
+    border-radius: 218px;
+}
