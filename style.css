@@ -168,7 +168,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 102px;
+    max-width: 102px;
     height: 100px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 23px;
@@ -192,4 +192,78 @@
     line-height: 28px;
     color: white;
     opacity: 0.6;
+}
+
+.our-tracks {
+    margin-top: 63px;
+    padding: 0 195px;
+}
+
+.text-tracks {
+    text-align: center;
+}
+
+.text-tracks h2 {
+    font-size: 50px;
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    line-height: 140%;
+    color: black;
+    margin-bottom: 9px;
+}
+
+.text-tracks p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-gray1);
+    margin-bottom: 65px;
+}
+
+.tracks-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.track-card {
+    width: 100%;
+    max-width: 490px;
+    padding: 13px 14px;
+}
+
+.img-track-card {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 14px;
+}
+
+.ui-star {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ui-star p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-gray);
+}
+
+.star {
+    display: flex;
+    gap: 2px;
+}
+
+.star1 {
+    width: 16px;
+    height: 16px;
+}
+
+.h2-track {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
 }
