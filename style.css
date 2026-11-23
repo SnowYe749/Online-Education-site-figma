@@ -231,6 +231,11 @@
     width: 100%;
     max-width: 490px;
     padding: 13px 14px;
+    border-radius: 14px;
+    transition: box-shadow 800ms;
+    &:hover {
+        box-shadow: 0 4px 5px black;
+    }
 }
 
 .img-track-card {
@@ -266,4 +271,65 @@
     font-size: 20px;
     font-weight: 500;
     color: black;
+}
+
+.price {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-orange);
+}
+
+hr {
+    border: 1px dashed #ACACAC;
+    margin-bottom: 16px;
+}
+
+.hours {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+}
+
+.time {
+    width: 19px;
+    height: 19px;
+    margin-right: -7px;
+}
+
+.video {
+    width: 28px;
+    height: 28px;
+    margin-right: -7px;
+}
+
+.download {
+    width: 18px;
+    height: 18px;
+    margin-right: -7px;
+}
+
+.hours p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-gray);
+}
+
+.btn-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 36px;
+    margin: 0 auto -37px auto;
+    height: 55px;
+    background-color: var(--text-orange);
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 96px;
+    cursor: pointer;
 }
