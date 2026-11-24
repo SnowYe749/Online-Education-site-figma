@@ -11,6 +11,7 @@
     --text-gray: #ACACAC;
     --text-gray1: #8A8A8A;
     --text-dark-blue: #0F335E;
+    --text-dark-blue1: #050C26;
 }
 
 * {
@@ -318,11 +319,13 @@ hr {
 }
 
 .btn-track {
+    position: relative;
+    top: 37px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 13px 36px;
-    margin: 0 auto -37px auto;
+    margin: 0 auto 37px auto;
     height: 55px;
     background-color: var(--text-orange);
     font-size: 25px;
@@ -332,4 +335,57 @@ hr {
     outline: none;
     border-radius: 96px;
     cursor: pointer;
+}
+
+.premium-content {
+    display: flex;
+    gap: 146px;
+    justify-content: center;
+    margin-top: 126px;
+}
+
+.h2-premium {
+    width: 100%;
+    max-width: 586px;
+    font-size: 69px;
+    font-weight: 800;
+    line-height: 135%;
+    color: var(--text-dark-blue1);
+    margin-bottom: 46px;
+}
+
+.h2-premium span {
+    color: var(--text-orange);
+}
+
+.description {
+    display: flex;
+}
+
+.description-image {
+    padding: 25px 24px;
+    width: 102px;
+    height: 101px;
+    background-color: var(--text-violett1);
+    border-radius: 23px;
+    margin: 0 23px 34px 0;
+    
+}
+
+.description-image img {
+    width: 52px;
+    height: 52px;
+}
+
+.description-title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 170%;
+    color: var(--text-dark-blue1);
+}
+
+.description-text {
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--text-gray1);
 }
