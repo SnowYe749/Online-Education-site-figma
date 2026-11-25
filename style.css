@@ -337,11 +337,23 @@ hr {
     cursor: pointer;
 }
 
+.premium-bg {
+    background-color: var(--text-white2)
+}
+
 .premium-content {
     display: flex;
     gap: 146px;
     justify-content: center;
     margin-top: 126px;
+    padding: 79px 0 89px 0;
+}
+
+.premium-img img {
+    width: 515px;
+    height: 644px;
+    object-fit: cover;
+    margin-bottom: -242px;
 }
 
 .h2-premium {
