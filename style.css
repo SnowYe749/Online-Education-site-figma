@@ -232,11 +232,8 @@
     width: 100%;
     max-width: 490px;
     padding: 13px 14px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
     border-radius: 14px;
-    transition: box-shadow 800ms;
-    &:hover {
-        box-shadow: 0 4px 5px black;
-    }
 }
 
 .img-track-card {
@@ -290,7 +287,6 @@ hr {
     display: flex;
     align-items: center;
     gap: 14px;
-    margin-bottom: 24px;
 }
 
 .time {
@@ -320,13 +316,12 @@ hr {
 
 .btn-track {
     position: relative;
-    top: 37px;
+    top: 39px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 13px 36px;
-    margin: 0 auto 37px auto;
-    height: 55px;
+    margin: 0 auto;
     background-color: var(--text-orange);
     font-size: 25px;
     font-weight: 500;
